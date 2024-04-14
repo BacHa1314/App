@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ManDangKy">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="50dp"
+                app:srcCompat="@drawable/anhmain" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Đăng nhập"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/dkTaiKhoan"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron1"
+                android:hint="   Tài Khoản"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_500"></EditText>
+
+            <EditText
+                android:id="@+id/dkMatKhau"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/botron1"
+                android:hint="   Mật Khẩu"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_500"></EditText>
+
+            <EditText
+                android:id="@+id/dkEmail"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/botron1"
+                android:hint="   Email"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_500"></EditText>
+
+            <Button
+                android:id="@+id/dkDangKy"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron"
+                android:text="Đăng ký"></Button>
+
+            <Button
+                android:id="@+id/dkDangNhap"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/botron"
+                android:text=" Đăng Nhập"></Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

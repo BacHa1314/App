@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainDanhGia">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/anhmain"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="@string/btn_BinhLuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <EditText
+        android:textColor="#2196F3"
+        android:id="@+id/edttentk"
+        android:textSize="25sp"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="@string/hint_TenTaiKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:id="@+id/dbnoidungdanhgia"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="@string/hint_NoiDung"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray_500"
+        android:inputType="text"
+        android:gravity="center"
+        android:background="@drawable/customer_tv_noidung">
+    </EditText>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/dbdanhgia"
+            android:background="@drawable/botron1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/btn_BinhLuan">
+        </Button>
+
+        <Button
+            android:id="@+id/dbxemdanhgia"
+            android:background="@drawable/botron1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/btn_XemBinhLuan">
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>
+

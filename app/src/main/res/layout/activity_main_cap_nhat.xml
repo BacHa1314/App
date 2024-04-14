@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainCapNhat">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/anhmain"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/app_name"/>
+
+
+    <EditText
+        android:id="@+id/dbtieude"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="Tên tác phẩm"
+        android:paddingStart="15dp"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray_500"
+        android:background="@drawable/botron1">
+    </EditText>
+
+    <EditText
+        android:id="@+id/dbnoidung"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Nội dung"
+        android:paddingStart="15dp"
+        android:textColorHint="@color/gray_500"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:background="@drawable/botron1">
+    </EditText>
+
+    <EditText
+        android:inputType="textUri"
+        android:hint="Ảnh bìa (link)"
+        android:id="@+id/dbimg"
+        android:paddingStart="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColorHint="@color/gray_500"
+        android:textColor="@color/black"
+        android:background="@drawable/botron1">
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonCapNhat"
+        android:background="@drawable/botron1"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_CapNhap"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+    </Button>
+
+
+</LinearLayout>

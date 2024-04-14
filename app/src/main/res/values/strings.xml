@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NBook</string>
+    <string name="btn_YeuThich">Yêu thích</string>
+    <string name="btn_BinhLuan">Bình luận</string>
+    <string name="btn_CapNhap">Cập nhật</string>
+    <string name="btn_XemBinhLuan">Xem bình luận</string>
+    <string name="hint_NoiDung">Nội dung</string>
+    <string name="hint_TenTaiKhoan">Tên tài khoản</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ManNoiDung">
+
+
+    <TextView
+        android:id="@+id/TenTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/NoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/customer_tv_noidung"
+        android:padding="2dp"
+        android:scrollbars="vertical"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDanhgia"
+        app:layout_constraintEnd_toEndOf="@+id/TenTruyen"
+        app:layout_constraintStart_toStartOf="@+id/TenTruyen"
+        app:layout_constraintTop_toBottomOf="@+id/TenTruyen"  />
+
+    <Button
+        android:id="@+id/buttonDanhgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botron2"
+        android:text="@string/btn_BinhLuan"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonYeuthich"
+        app:layout_constraintEnd_toStartOf="@+id/buttonYeuthich"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonYeuthich" />
+
+    <Button
+        android:id="@+id/buttonYeuthich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botron2"
+        android:text="@string/btn_YeuThich"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonDanhgia" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

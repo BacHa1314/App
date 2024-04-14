@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainCapNhat">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/anhmain" />
+
+            <EditText
+                android:id="@+id/dbtieude"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/botron1"
+                android:hint="   Tên tác phẩm"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_500"></EditText>
+
+            <EditText
+                android:id="@+id/dbnoidung"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron1"
+                android:hint="   Nội dung"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_500"></EditText>
+
+            <EditText
+                android:id="@+id/dbimg"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron1"
+                android:hint="   Ảnh bìa (link)"
+                android:inputType="textUri"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_500"></EditText>
+
+            <Button
+                android:id="@+id/buttonCapNhat"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botron1"
+                android:text="Cập nhật"></Button>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

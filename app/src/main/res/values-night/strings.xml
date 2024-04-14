@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_YeuThich">Yêu thích</string>
+    <string name="btn_CapNhap">Cập nhật</string>
+    <string name="hint_TenTaiKhoan">Tên tài khoản</string>
+</resources>

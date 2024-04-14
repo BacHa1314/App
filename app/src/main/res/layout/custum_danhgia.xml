@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
+
+        <ImageView
+            android:id="@+id/img_anh"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:src="@drawable/readers">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txttentk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_tentruyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_noidung"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center_vertical"
+            android:text="Nội dung bình luận"
+            android:textColor="@color/gray_500"
+            android:textSize="25dp"
+            android:paddingStart="15dp"
+            android:background="@drawable/customer_tv_noidung">
+        </TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
